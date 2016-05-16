@@ -1,101 +1,106 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
 
- $navbar-default-bg: #000;
+$navbar-default-bg: #000;
 
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- #logo {
- 	float: left;
- 	font-size: 1.7em;
- 	color: #FFF;
- 	text-transform: uppercase;
- 	letter-spacing: -1px;
- 	font-weight: bold;
- }
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
 
- #logo:hover{
- 	color: #FFF;
- 	text-decoration:none;
- }
+#logo:hover{
+	color: #FFF;
+	text-decoration:none;
+}
 
- .center {
- 	text-align: center;
- }
+.center {
+	text-align: center;
+}
 
- .jumbotron {
- 	background-image: asset-url('6.png');
- 	background-size: cover;
- 	min-height: 550px;
- }
+.jumbotron {
+	background-image: asset-url('6.png');
+	background-size: cover;
+	min-height: 550px;
+}
 
- .jumbotron h1{
- 	color: #Fff;
- 	text-align: center;
- 	margin-bottom: 30px;
- 	letter-spacing: -1px;
- 	font-weight: bold;
- 	text-transform: uppercase;
+.jumbotron h1{
+	color: #Fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	text-transform: uppercase;
 
- }
+}
 
- .btn-xlarge {
- 	font-size: 1.7em;
- 	
- }
- footer{
- 	margin-top: 45px;
- 	padding-top: 5px;
- 	border-top: 1px solid #eaeaea;
- 	color: #777;
- }
+.btn-xlarge {
+	font-size: 1.7em;
 
- footer a:hover {
- 	color: #222;
- }
+}
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
 
- footer small {
- 	float: left;
- }
+footer a:hover {
+	color: #222;
+}
 
- footer ul{
- 	float: right;
- 	list-style: none;
- }
- footer ul li{
- 	float: left;
- 	margin-left: 15px;
- }
+footer small {
+	float: left;
+}
 
- .article-actions {
+footer ul{
+	float: right;
+	list-style: none;
+}
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
 
- 	border-top: 1px solid #eaeaea;
+.article-actions {
 
- 	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
 
- }
- .article-meta-details {
- 	border-top: 1px solid #eaeaea;
- 	margin-top:  15px;
- }
+	padding-top: 5px;
 
- .description {
+}
+.article-meta-details {
+	border-top: 1px solid #eaeaea;
+	margin-top:  15px;
+}
 
- 	margin-top: 0;
+.description {
 
- }
+	margin-top: 0;
+
+}
+
+.listing {
+	list-style:none;
+	padding-left: 0px;
+}
