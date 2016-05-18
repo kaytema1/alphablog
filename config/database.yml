@@ -7,21 +7,20 @@ development:
   username: nanayawbaning
   password: Big2boss
 
-  test:
-    adapter: postgresql
-    encoding: unicode
-    database: alpha_blog_test
-    host: localhost
-    pool: 5
-    username: nanayawbaning
-    password: Big2boss 
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: alpha_blog_test
+  host: localhost
+  pool: 5
+  username: nanayawbaning
+  password: Big2boss 
 
-
-    production:
-      adapter: postgresql
-      encoding: unicode
-      database: alpha_blog_production
-      host: localhost
-      pool: 5
-      username: nanayawbaning
-      password: Big2boss
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: alpha_blog_production
+  host: localhost
+  pool: 5
+  username: nanayawbaning
+  password: Big2boss
