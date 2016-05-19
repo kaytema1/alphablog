@@ -25,6 +25,14 @@
 
 	<hr>
 
+	<% if @article.categories.any? %>
+
+	<p>Categories: <%= render @article.categories %></p>
+
+	<% end %>
+
+	<hr>
+
 	<%= simple_format(@article.description) %>
 
 	<div class="article-actions">
